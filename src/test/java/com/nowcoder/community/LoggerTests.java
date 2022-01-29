@@ -18,7 +18,7 @@ public class LoggerTests {
     @Test
     public void testLogger() {
         System.out.println(logger.getName());
-
+		//测试git
         logger.debug("debug log");
         logger.info("info log");
         logger.warn("warn log");
